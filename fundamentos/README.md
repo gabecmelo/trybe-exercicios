@@ -1,0 +1,1 @@
+Neste Módulo, estão guardados os exercícios feitos com base nos fundamentos do desenvolvimento, como por exemplo os fundamentos de HTML, CSS, JavaScript.
