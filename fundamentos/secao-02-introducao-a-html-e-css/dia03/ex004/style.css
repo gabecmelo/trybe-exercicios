@@ -1,0 +1,38 @@
+div:hover {
+    border-style: solid;
+    border-color: rgb(46, 46, 46);
+}
+
+div:nth-child(3) {
+    color:rgb(161, 255, 161);
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(255, 0, 0);
+    font-style: italic;
+}
+
+div:nth-child(4) {
+    color: aliceblue;
+    background-color: purple;
+}
+
+div:nth-child(5) { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+div:nth-child(6) {
+    color:rgb(80, 176, 255);
+    background-color: rgb(63, 41, 41);
+}
+
+div:nth-child(7) {
+    color: rgb(249, 74, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background-color: rgb(148, 255, 205);
+}
+

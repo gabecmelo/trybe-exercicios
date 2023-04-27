@@ -1,0 +1,16 @@
+h1, p {
+    text-align: center;
+}
+
+li:hover {
+    background-color: rgb(202, 255, 202);
+}
+
+li:active {
+    color: rgb(255, 78, 78);
+}
+
+
+li {
+    list-style: none;
+}
