@@ -10,6 +10,55 @@ ol li:nth-child(odd) {
     text-transform: uppercase;
 }
 
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: bold;
+}
+
 h1, h3 {
     color: red;
+}
+
+h1 em {
+    font-size: 40px;
+    border: 1px black solid;
+}
+
+#linguagens li:nth-child(-n+3) {
+    color: blue;
+}
+
+li#java {
+    background-color: pink;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+li:nth-child(1) a:hover {
+    color: orange;
+}
+
+li:nth-child(2) a:hover {
+    color: green;
+}
+
+li:nth-child(3) a:hover {
+    color: black;
+}
+
+li:nth-child(4) a:hover {
+    color: rgb(235, 209, 93);
+}
+
+li:nth-child(5) a:hover {
+    color: rgb(142, 226, 15);
 }
