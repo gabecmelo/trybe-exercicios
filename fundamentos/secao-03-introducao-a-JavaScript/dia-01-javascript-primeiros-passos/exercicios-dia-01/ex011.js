@@ -1,4 +1,4 @@
-let salarioBruto = 6000
+let salarioBruto = 3000
 let salarioBase;
 let salarioLiquido;
 
@@ -40,4 +40,4 @@ if (salarioBase < impRendFaixa1) {
   salarioLiquido = salarioBase - ((salarioBase * 0.275) - 869.36)
 }
 
-console.log(`O salário líquido dessa pessoa é de ${salarioLiquido.toFixed(2)}.`)
+console.log(`O salário líquido dessa pessoa é de R$${salarioLiquido.toFixed(2)}.`)
