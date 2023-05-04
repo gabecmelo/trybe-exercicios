@@ -1,0 +1,37 @@
+  // Ordem Crescente
+
+console.log('Ordene o array numbers em ordem crescente e imprima seus valores.');
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let index = 1; index < numbers.length; index += 1) {
+  for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+    if (numbers[index] < numbers[secondIndex]) {
+      let position = numbers[index];
+      numbers[index] = numbers[secondIndex];
+      numbers[secondIndex] = position;
+    }
+  }
+}
+
+console.log(numbers)
+
+  // Ordem Decrescente
+
+console.log('Ordene o array numbers1 em ordem decrescente e imprima seus valores.')
+
+let numbers1 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let index = 1; index < numbers1.length; index += 1) {
+  for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+    if (numbers1[index] > numbers1[secondIndex]) {
+      let position = numbers1[index];
+      numbers1[index] = numbers1[secondIndex];
+      numbers1[secondIndex] = position;
+    }
+  }
+}
+
+console.log(numbers1)
+
+  
