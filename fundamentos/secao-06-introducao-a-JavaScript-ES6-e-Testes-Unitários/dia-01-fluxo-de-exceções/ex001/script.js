@@ -53,12 +53,12 @@ const showPromo = (name, number) => {
     secondText.innerHTML = `A promoção do dia é: 
     ${productObject.product} no valor de R$ ${productObject.price}`;
   } catch (error) {
-    // firstText.innerHTML = ''
+    firstText.innerHTML = ''
     secondText.innerHTML = error.message
-  } finally {
+  } /* finally {
     firstText.innerHTML = ''
     secondText.innerHTML = ''
-  }
+  } */
 }
 
 // Segunda parte
