@@ -1,0 +1,21 @@
+{
+  "name": "buscador-de-cep",
+  "version": "1.0.0",
+  "description": "Buscador de cep feito na TRybe",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix ./src",
+    "dev": "vite --open",
+    "build": "vite build"
+  },
+  "author": "gabe",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.3.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
