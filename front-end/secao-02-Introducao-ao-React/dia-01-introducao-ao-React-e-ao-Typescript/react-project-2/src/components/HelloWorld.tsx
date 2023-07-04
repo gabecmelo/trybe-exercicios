@@ -9,7 +9,7 @@ export default function HelloWorld() {
 
   return (
     <div>
-      <h1 style={ { color: 'green', textAlign: 'center' } }>{name}</h1>
+      <h1 style={{ color: 'green', textAlign: 'center' }}>{name}</h1>
       <p>{`${age} anos`}</p>
       <Title />
       <ModuleDetails />

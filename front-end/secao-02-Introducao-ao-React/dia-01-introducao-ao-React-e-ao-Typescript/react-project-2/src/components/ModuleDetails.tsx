@@ -1,10 +1,14 @@
+let Modules: string[] = ['Fundamentos', 'Front-end', 'Back-end', 'Ciência da Computação'];
+
 export default function ModuleDetails() {
   return (
     <ul>
-      <li>Módulo: Fundamentos ✅</li>
-      <li>Módulo: Front-end ⏳</li>
-      <li>Módulo: Back-end ⏳</li>
-      <li>Módulo: Ciência da Computação ⏳</li>
+      {
+        Modules.map((module) => (
+          module === 'Fundamentos' ? <li>Módulo {module} ✅</li>
+            : <li>Módulo {module} ⌛</li>
+        ))
+      }
     </ul>
   );
 }
