@@ -1,0 +1,35 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container * {
+  margin: 5px;
+}
+
+textarea {
+  resize: none;
+  width: 20vw;
+  height: 10vh;
+}
+
+.experiences {
+  display: flex;
+  flex-direction: column;
+}
+
+.camps-message {
+  border-left: 2px solid red;
+  color: red;
+  text-shadow: 0.2px 0.2px 0.1px rgb(65, 0, 0);
+  background-color: rgb(255, 226, 247);
+  padding: 5px;
+  border-radius: 0 2px 2px 0;
+  margin: 0;
+}
+
+.label-termo {
+  background-color: rgb(205, 232, 255);
+  border-radius: 2px;
+  padding: 3px;
+}
