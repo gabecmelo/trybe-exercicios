@@ -4,13 +4,13 @@ Este repositório contém os exercícios desenvolvidos por Mim, Gabriel Cabral M
 
 ## Tecnologias Utilizadas
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
+- Jest
 - React
-- Node.js
-- Express.js
-- MongoDB
+- React Testing Library
+
 
 ## Como utilizar
 
