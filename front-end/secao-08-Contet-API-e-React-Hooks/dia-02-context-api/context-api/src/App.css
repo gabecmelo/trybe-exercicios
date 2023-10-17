@@ -1,0 +1,64 @@
+* {
+  transition: all 1s;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+} 
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 5rem;
+}
+
+header * {
+  margin: 0 3rem;
+}
+
+button {
+  background-color: rgb(116, 115, 115);
+  border: 0 none;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 3rem;
+}
+
+.dark {
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+
+.dark footer {
+  background-color: black;
+}
+
+.light footer {
+  background-color: rgb(185, 185, 185);
+}
+
+.dark header {
+  background-color: rgb(28, 7, 58);
+}
+
+.light header {
+  background-color: rgb(142, 223, 244);
+}
