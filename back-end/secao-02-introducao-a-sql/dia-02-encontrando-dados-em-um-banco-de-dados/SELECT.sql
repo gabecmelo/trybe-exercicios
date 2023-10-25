@@ -1,0 +1,14 @@
+SELECT 'Olá, bem vindo ao SQL' AS welcome;
+SELECT 10 AS number;
+SELECT now() AS data_atual;
+SELECT 20 * 2 AS multiplication;
+SELECT 50 / 2 AS division;
+SELECT 18 AS age;
+SELECT 2023 AS 'year';
+SELECT 'Gabriel', 'Melo', 18, 'Desenvolvedor Full Stack';
+SELECT 'Gabriel' AS name, 'Melo' AS last_name, 18 AS age, 'Desenvolvedor Full Stack' AS actuation_area;
+SELECT CONCAT('Gabriel', ' ', 'Melo') AS full_name;
+SELECT 'Gabriel', 'Melo', 'Maringá', 18;
+SELECT 'Gabriel' AS name, 'Melo' AS last_name, 'Maringá' AS city_of_birth, 18 AS age;
+SELECT 13 * 8;
+SELECT now() AS 'Data Atual';
