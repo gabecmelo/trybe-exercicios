@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "bmi": "node bmi.js"
+    "bmi": "node src/bmi.js",
+    "simpsonsa": "node src/simpsonsA.js",
+    "simpsonsb": "node src/simpsonsB.js",
+    "simpsonsc": "node src/simpsonsC.js",
+    "simpsonsd": "node src/simpsonsD.js",
+    "simpsonse": "node src/simpsonsE.js",
+    "simpsonsf": "node src/simpsonsF.js"
   },
   "keywords": [],
   "author": "",
